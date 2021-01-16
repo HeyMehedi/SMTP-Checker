@@ -5,9 +5,9 @@ if (isset($_POST['submit'])) {
     print_r($_POST);
 
     if ("tls" == $secure) {
-       $secure = "PHPMailer::ENCRYPTION_STARTTLS";
-    }elseif("ssl" == $secure){
-       $secure = "PHPMailer::ENCRYPTION_SMTPS";
+        $secure = "PHPMailer::ENCRYPTION_STARTTLS";
+    } elseif ("ssl" == $secure) {
+        $secure = "PHPMailer::ENCRYPTION_SMTPS";
     }
     echo $secure;
     echo "hello";
