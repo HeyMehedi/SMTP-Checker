@@ -1,3 +1,2 @@
 # ping-smtp
-A sample project to check SMTP
-https://pingsmtp.heymehedi.com/
+A sample project to check SMTP(https://pingsmtp.heymehedi.com/)
